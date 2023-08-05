@@ -6,12 +6,12 @@ from langchain.prompts import PromptTemplate
 
 page_icon = "🦜️"
 layout = "centered"
-page_title = "Essay Writer"
+page_title = "Essay Generator"
 caption_text = "By <a href=\"https://github.com/rpatra332\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"mycaption\">Rohit Patra</a>"
 
 
 st.set_page_config(page_icon=page_icon, page_title=page_title, layout=layout)
-st.title(body='🦜️ Essay Writer', help="Made With LangChain And Google PaLm 2 API")
+st.title(body='🦜️ Essay Generator', help="Made With LangChain And Google PaLm 2 API")
 st.caption(caption_text, unsafe_allow_html=True)
 
 
